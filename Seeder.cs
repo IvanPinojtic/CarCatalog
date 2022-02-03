@@ -14,6 +14,8 @@ namespace CarCatalog
         {
             using (var context = new CarCatalogContext(serviceCollection.BuildServiceProvider().GetRequiredService<DbContextOptions<CarCatalogContext>>()))
             {
+                context.Database.Migrate();
+
                 if (context.Manufacturers.Any())
                     return;
 

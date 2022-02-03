@@ -34,10 +34,10 @@ namespace CarCatalog
             services.AddControllers();
             services.AddDbContext<CarCatalogContext>(opt =>
             opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //testiranje bez baze
             //opt.UseInMemoryDatabase("CarCatalog"));
 
-            //services.AddDatabaseDeveloperPageExceptionFilter();
-
+            //seedanje podataka
             Seeder.SeedData(services);
 
             services.AddScoped<IManufacturerRepository, ManufacturerRepository>();
@@ -63,6 +63,7 @@ namespace CarCatalog
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

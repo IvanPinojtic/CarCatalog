@@ -19,8 +19,7 @@ namespace CarCatalog.Controllers
     public class ManufacturersController : ControllerBase
     {
         private readonly IManufacturerRepository _repository;
-
-        //db/2testa
+        //2testa
 
         public ManufacturersController(IManufacturerRepository repository)
         {
