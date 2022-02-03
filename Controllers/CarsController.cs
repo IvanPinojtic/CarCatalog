@@ -6,6 +6,10 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CarCatalog.Models;
+using CarCatalog.Models.DTO;
+using CarCatalog.Models.Parameters;
+using CarCatalog.Repository;
+using CarCatalog.Models.Database;
 
 namespace CarCatalog.Controllers
 {

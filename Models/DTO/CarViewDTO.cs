@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CarCatalog.Models
+namespace CarCatalog.Models.DTO
 {
-    public class CarEditDTO
+    public class CarViewDTO
     {
+        public int Id { get; set; }
         public string Name { get; set; }
         public string Color { get; set; }
         public double Price { get; set; }

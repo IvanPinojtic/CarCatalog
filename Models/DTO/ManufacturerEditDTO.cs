@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CarCatalog.Models
+namespace CarCatalog.Models.DTO
 {
     public class ManufacturerEditDTO
     {

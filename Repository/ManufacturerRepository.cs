@@ -1,11 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarCatalog.Models;
+using CarCatalog.Models.Database;
+using CarCatalog.Models.Parameters;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-namespace CarCatalog.Models
+namespace CarCatalog.Repository
 {
     public class ManufacturerRepository : IManufacturerRepository
     {

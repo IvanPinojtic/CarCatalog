@@ -7,6 +7,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CarCatalog.Models;
 using Newtonsoft.Json;
+using CarCatalog.Repository;
+using CarCatalog.Models.Parameters;
+using CarCatalog.Models.DTO;
+using CarCatalog.Models.Database;
 
 namespace CarCatalog.Controllers
 {
@@ -16,7 +20,7 @@ namespace CarCatalog.Controllers
     {
         private readonly IManufacturerRepository _repository;
 
-        //db/2testa/preseli okolo
+        //db/2testa
 
         public ManufacturersController(IManufacturerRepository repository)
         {

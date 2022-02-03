@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CarCatalog.Models
+namespace CarCatalog.Models.Database
 {
     public class Manufacturer
     {

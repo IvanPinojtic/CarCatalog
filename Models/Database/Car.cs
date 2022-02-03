@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CarCatalog.Models
+namespace CarCatalog.Models.Database
 {
     public class Car
     {

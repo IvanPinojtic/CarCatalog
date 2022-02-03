@@ -1,4 +1,6 @@
 using CarCatalog.Models;
+using CarCatalog.Models.Database;
+using CarCatalog.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -30,8 +32,11 @@ namespace CarCatalog
         {
 
             services.AddControllers();
-           services.AddDbContext<CarCatalogContext>(opt =>
-    opt.UseInMemoryDatabase("CarCatalog"));
+            services.AddDbContext<CarCatalogContext>(opt =>
+            opt.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+            //opt.UseInMemoryDatabase("CarCatalog"));
+
+            //services.AddDatabaseDeveloperPageExceptionFilter();
 
             Seeder.SeedData(services);
 
