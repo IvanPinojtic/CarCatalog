@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCatalog", "CarCatalog.csproj", "{D3A060BD-0E65-420F-BF29-FB6C151C6940}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCatalog.DAL", "..\CarCatalog.DAL\CarCatalog.DAL.csproj", "{651CBFB8-F03E-44B5-BC28-42F7E3D6976C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarCatalog.DAL", "..\CarCatalog.DAL\CarCatalog.DAL.csproj", "{651CBFB8-F03E-44B5-BC28-42F7E3D6976C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarCatalog.Test", "..\CarCatalog.Test\CarCatalog.Test.csproj", "{E9B47D67-56D7-43DF-9D67-1710999B03DE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{651CBFB8-F03E-44B5-BC28-42F7E3D6976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651CBFB8-F03E-44B5-BC28-42F7E3D6976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651CBFB8-F03E-44B5-BC28-42F7E3D6976C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9B47D67-56D7-43DF-9D67-1710999B03DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B47D67-56D7-43DF-9D67-1710999B03DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B47D67-56D7-43DF-9D67-1710999B03DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B47D67-56D7-43DF-9D67-1710999B03DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
