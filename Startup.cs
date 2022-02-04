@@ -1,6 +1,5 @@
-using CarCatalog.Models;
-using CarCatalog.Models.Database;
-using CarCatalog.Repository;
+using CarCatalog.DAL.Models;
+using CarCatalog.DAL.Repository;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;

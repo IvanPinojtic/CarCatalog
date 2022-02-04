@@ -7,10 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CarCatalog.Models;
 using Newtonsoft.Json;
-using CarCatalog.Repository;
-using CarCatalog.Models.Parameters;
-using CarCatalog.Models.DTO;
-using CarCatalog.Models.Database;
+using CarCatalog.DAL.Repository;
+using CarCatalog.DAL.Parameters;
+using CarCatalog.DAL.Models;
 
 namespace CarCatalog.Controllers
 {
